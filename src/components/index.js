@@ -21,3 +21,8 @@ export {
   Carousel,
   Message
 }
+
+document.getElementById("play-audio").addEventListener("click", function() {
+    let audio = document.getElementById("background-audio");
+    audio.play().catch(error => console.error("Autoplay failed:", error));
+});

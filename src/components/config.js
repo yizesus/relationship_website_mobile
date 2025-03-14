@@ -6,56 +6,56 @@ const config = {
   */
 
   // 🔐 Passcode Page
-  correctPasscode: "0000", // Change this to any 4-digit code (the passcode for access)
-  passcodeTitle: "Enter Passcode", // Title displayed on the passcode entry page
-  successMessage: "Yayy!! :)", // Message shown upon successful passcode entry
-  redirectMessage: "Redirecting...", // Message displayed while redirecting after success
-  incorrectPasscodeMessage: "Incorrect passcode, hint: our anniversary date!", // Message shown for incorrect passcode
-  cancelButtonText: "Cancel", // Text for the cancel button
+  correctPasscode: "1225", // Change this to any 4-digit code (the passcode for access)
+  passcodeTitle: "Nhập mật khẩu", // Title displayed on the passcode entry page
+  successMessage: "Chào vợ iuuu :)", // Message shown upon successful passcode entry
+  redirectMessage: "Đợi xíuuu", // Message displayed while redirecting after success
+  incorrectPasscodeMessage: "Sai mật khẩu, gợi ý: ngày chúng mình gặp nhau :3", // Message shown for incorrect passcode
+  cancelButtonText: "Hủy", // Text for the cancel button
 
   // 🔍 Question Page
-  searchPlaceholder: "Search Google or type a URL", // Placeholder text in the search input
-  trendingTitle: "Trending searches", // Title for the trending searches section
+  searchPlaceholder: "Tìm trên Google hoặc nhập địa chỉ URL", // Placeholder text in the search input
+  trendingTitle: "Các từ khóa trending", // Title for the trending searches section
   trendingSearches: [
-    "Why is my bf so cute?", // Example trending search query
-    "Why does Rheina love him more?", // Another example query
-    `Rheina's birthdate (coz her bf forgets)`, // A personalized trending search
+    "Tại sao vợ anh lại siuu cutii tới zậy", // Example trending search query
+    "Sinh nhật của của miaaa", // Another example query
+    "Cách để giúp vợ zuiiii", // A personalized trending search
   ],
-  proTip: 'Pro tip: try searching "How long have we been together?" ;)', // Helpful tip for users
+  proTip: 'Gợi ý: thử tìm "thời gian bên nhau" ;)', // Helpful tip for users
 
   // ⏳ Timer Page
-  anniversaryDate: "2024-10-18", // 📅 Set your anniversary date here (used for the timer)
-  timerTitle: "We've been together for:", // Title displayed on the timer page
-  timerMessage: "... and still counting <3", // Message shown alongside the timer
+  anniversaryDate: "2025-2-1", // 📅 Set your anniversary date here (used for the timer)
+  timerTitle: "Chúng mình ở bên nhau được:", // Title displayed on the timer page
+  timerMessage: "... vẫn đang đếm ngày <3", // Message shown alongside the timer
   timeUnits: {
-    days: "Days", // Label for days in the timer
-    hours: "Hours", // Label for hours in the timer
-    minutes: "Minutes", // Label for minutes in the timer
-    seconds: "Seconds", // Label for seconds in the timer
+    days: "Ngày", // Label for days in the timer
+    hours: "Giờ", // Label for hours in the timer
+    minutes: "Phút", // Label for minutes in the timer
+    seconds: "Giây", // Label for seconds in the timer
   },
 
   // 📸 Recap Page
-  recapTitle: "Let's recap our time together", // Title for the recap page
-  clickMeText: "Click me!", // Text prompting users to interact
+  recapTitle: "Hãy cùng xem lại những bức hình kỷ niệm", // Title for the recap page
+  clickMeText: "^Ấn vào đây nè^", // Text prompting users to interact
 
   recapSections: [
-    { label: "Messages", path: "/recap/message", icon: "Message" }, // Section for messages
-    { label: "Pictures", path: "/recap/pictures", icon: "Image" }, // Section for pictures
-    { label: "Music", path: "/recap/music", icon: "Music" }, // Section for music
+    { label: "Tin Nhắn", path: "/recap/message", icon: "Message" }, // Section for messages
+    { label: "Hình", path: "/recap/pictures", icon: "Image" }, // Section for pictures
+    { label: "Nhạc", path: "/recap/music", icon: "Music" }, // Section for music
   ],
 
   // 🎵 Music Page
-  musicTitle: "Songs that remind me of you", // Title for the music page
+  musicTitle: "Nhạc mà anh luôn nghĩ về emmm", // Title for the music page
   musicGallery: [
     {
-      title: "Heavenly", // Title of the song
-      artist: "Cigarettes After Sex", // Artist of the song
+      title: "Coffee", // Title of the song
+      artist: "a!ka", // Artist of the song
       left: "5%", // Positioning on the page
       top: "5%", // Positioning on the page
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
+      title: "Wrong Times",
+      artist: "Dangrangto, puppy",
       left: "40%",
       top: "15%",
     },
@@ -66,59 +66,53 @@ const config = {
       top: "40%",
     },
     {
-      title: "Last Night on Earth",
-      artist: "Green Day",
+      title: "Đừng Làm Trái Tim Anh Đau",
+      artist: "Sơn Tùng M-TP",
       left: "30%",
       top: "75%",
     },
     {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
+      title: "Nơi Này Có Anh",
+      artist: "Sơn Tùng M-TP",
       left: "5%",
       top: "65%",
     },
     {
-      title: "Sparks",
-      artist: "Coldplay",
+      title: "blue",
+      artist: "yung kai",
       left: "25%",
       top: "90%",
     },
     {
-      title: "Kiss Me Thru The Phone",
-      artist: "Soulja Boy, Sammie",
+      title: "Heat Waves",
+      artist: "Glass Animals",
       left: "35%",
       top: "50%",
-    },
-    {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
-      left: "10%",
-      top: "25%",
     },
   ],
 
     // 📝 Message Recap Page
-    messageTitle: "Our Messages", // Title for the messages recap page
+    messageTitle: "Những dòng tin nhắn ký ức", // Title for the messages recap page
     messageGallery: [
-      { title: "September 3, 2024", description: "A beautiful day to remember." }, // Message entry
-      { title: "October 5, 2024", description: "Cherishing moments together." },
-      { title: "December 25, 2024", description: "Christmas with love ❤️" },
+      { title: "1 tháng 2, 2025", description: "Ngày chúng ta gặp nhau :333" }, // Message entry
+      { title: "14 tháng 2, 2025", description: "Valentine cùng với nhauuu 💕" },
+      { title: "8 tháng 3, 2025", description: "Ngày Quốc Tế Phụ Nữ 💐" },
     ],
   
     // 📸 Picture Recap Page
-    pictureTitle: "Our Pictures", // Title for the pictures recap page
+    pictureTitle: "Những bức hình anh thíc", // Title for the pictures recap page
     pictureGallery: [
-      { title: "January 1, 2024", description: "New Year's Celebration 🎉" }, // Picture entry
-      { title: "February 14, 2024", description: "Valentine's Day 💕" },
-      { title: "March 10, 2024", description: "Beach trip memories 🏖️" },
+      { title: "bộ đỏ lộng lẫyy", description: "đỏoo rạo rựccc" }, // Picture entry
+      { title: "bộ trắng tinh khiết :)))))", description: "siuuu đẹp" },
+      { title: "kiểu tóc anh ưngggg :333", description: "lun mún em để kiểu tóc nàyyy :33" },
     ],
   
 
   // 💌 Love Letter Page
-  loveLetterMessage: "Hi, I love you so much💖", // Message displayed on the love letter page
+  loveLetterMessage: "Chào vợ iuuuu, anh nhớ và yêu emm nhiều lắmmm óoooo :333", // Message displayed on the love letter page
 
   // 🎇 Closing Page
-  closingMessage: "Thank you for everything, my love! 💖 Wishing us many more wonderful years together.", // Closing message displayed
+  closingMessage: "Cảm ơn em vì tất cả, vợ iu của anh! 💖 Mong rằng anh với em sẽ có thêm nhiều tháng ngày tuyệt vời bên nhau.", // Closing message displayed
 
   /* 
   ████████████████████████████████████████
@@ -140,8 +134,9 @@ const config = {
 
   // 🔍 Search Queries (Only change if modifying search functionality)
   correctSearchQueries: [
-    "How long have we been together?", // Example of a correct search query
-    "how long have we been together", // Another example of a correct search query
+    "anh với em ở bên nhau đc bao lâu rùi", // Example of a correct search query
+    "thời gian bên nhau", // Another example of a correct search query
+    "thời gian", // Another example of a correct search query
   ],
 };
 
